@@ -26,8 +26,6 @@ public class Ball : MonoBehaviour
         if (_input != Vector3.zero)
         {
             _isMoving = true;
-
-            _input += Camera.main.transform.forward;
         }
         else
         {
