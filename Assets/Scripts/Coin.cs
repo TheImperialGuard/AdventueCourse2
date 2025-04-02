@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private int _lowerValue;
+    [SerializeField] private int _upperValue;
+
+    private int _value;
+
+    private void Awake()
     {
-        
+        _value = Random.Range(_lowerValue, _upperValue + 1);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        Ball ball = other.GetComponent<Ball>();
+
+        if (ball != null)
+        {
+            //ball
+            gameObject.SetActive(false);
+        }
     }
+
+    public int Value => _value;
 }
