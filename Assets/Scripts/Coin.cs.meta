@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Scripts/TargetTracker.cs.meta
-guid: dffd08a0b3f32bf449d3d319ab6d7b45
-========
-guid: 106ffd931e469fe468989bf76b0b4756
->>>>>>>> scene-managment:Assets/Scripts/Rotator.cs.meta
+guid: 40073390140d97e4c9e89a42a99e21c9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
