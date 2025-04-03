@@ -6,6 +6,7 @@ using UnityEngine;
 public class Mover : MonoBehaviour
 {
     [SerializeField] private float _speed;
+    [SerializeField] private float _jumpForce;
 
     private Rigidbody _rigidbody;
 
@@ -18,5 +19,11 @@ public class Mover : MonoBehaviour
     {
         Vector3 force = direction * _speed * Time.deltaTime;
         _rigidbody.AddForce(force, ForceMode.Force);
+    }
+
+    internal void Jump()
+    {
+        Vector3 force = Vector3.up * _jumpForce * Time.deltaTime;
+        _rigidbody.AddForce(force, ForceMode.Impulse);
     }
 }
