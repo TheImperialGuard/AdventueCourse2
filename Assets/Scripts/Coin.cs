@@ -4,23 +4,17 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    [SerializeField] private int _lowerValue;
-    [SerializeField] private int _upperValue;
-
-    private int _value;
-
-    private void Awake()
-    {
-        _value = Random.Range(_lowerValue, _upperValue + 1);
-    }
+    [SerializeField] private int _value;
 
     private void OnTriggerEnter(Collider other)
     {
-        Ball ball = other.GetComponent<Ball>();
+        Wallet wallet = other.GetComponent<Wallet>();
 
-        if (ball != null)
+        if (wallet != null)
         {
-            //ball
+            wallet.AddCoins(_value);
+            wallet.PrintBalance();
+
             gameObject.SetActive(false);
         }
     }
