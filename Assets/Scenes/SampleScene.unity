@@ -1999,7 +1999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &142046616
 MonoBehaviour:
@@ -8324,7 +8324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &224344399
 MonoBehaviour:
@@ -9326,7 +9326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &325255810
 MonoBehaviour:
@@ -10322,7 +10322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &398529589
 MonoBehaviour:
@@ -14829,7 +14829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &713966420
 MonoBehaviour:
@@ -15028,7 +15028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &720281017
 MonoBehaviour:
@@ -17226,7 +17226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &864257331
 MonoBehaviour:
@@ -20627,7 +20627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1052190933
 MonoBehaviour:
@@ -22229,6 +22229,85 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1f326a024d753d84b890fa6556c6a367, type: 3}
   m_PrefabInstance: {fileID: 889783958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1190456731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1190456734}
+  - component: {fileID: 1190456733}
+  - component: {fileID: 1190456732}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1190456732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190456731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504f3ed62b946e242b0f78b21664b502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coins:
+  - {fileID: 224344396}
+  - {fileID: 1052190930}
+  - {fileID: 1600976983}
+  - {fileID: 864257328}
+  - {fileID: 142046613}
+  - {fileID: 1417062793}
+  - {fileID: 1753256063}
+  - {fileID: 1677395589}
+  - {fileID: 1388430233}
+  - {fileID: 1295920776}
+  - {fileID: 325255807}
+  - {fileID: 1269781648}
+  - {fileID: 398529586}
+  - {fileID: 720281014}
+  - {fileID: 713966417}
+--- !u!114 &1190456733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190456731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36781c0a267570d478602637df018ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ball: {fileID: 1779215316}
+  _destructableObjects:
+  - {fileID: 559466893}
+  - {fileID: 338782971}
+  - {fileID: 391619064}
+  _defaultSecondsForLose: 180
+--- !u!4 &1190456734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190456731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1190712077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23750,7 +23829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1269781651
 MonoBehaviour:
@@ -24145,7 +24224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1295920779
 MonoBehaviour:
@@ -26219,7 +26298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1388430236
 MonoBehaviour:
@@ -26849,7 +26928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1417062796
 MonoBehaviour:
@@ -30004,7 +30083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1600976986
 MonoBehaviour:
@@ -30981,7 +31060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1677395592
 MonoBehaviour:
@@ -32834,7 +32913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
-  _coinsResolver: {fileID: 0}
+  _coinsResolver: {fileID: 1190456732}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1753256066
 MonoBehaviour:
@@ -45359,3 +45438,4 @@ SceneRoots:
   - {fileID: 1698115771}
   - {fileID: 216491113}
   - {fileID: 1829202163}
+  - {fileID: 1190456734}
