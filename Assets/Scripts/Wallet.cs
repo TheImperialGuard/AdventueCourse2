@@ -17,6 +17,11 @@ public class Wallet : MonoBehaviour
 
     public void PrintBalance()
     {
-        Debug.Log("Your coins: " + _balance);
+        Debug.Log($"Your balance: {_balance}");
+    }
+
+    internal void ResetBalance()
+    {
+        _balance = 0;
     }
 }

@@ -1999,6 +1999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &142046616
 MonoBehaviour:
@@ -8323,6 +8324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &224344399
 MonoBehaviour:
@@ -9324,6 +9326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &325255810
 MonoBehaviour:
@@ -10319,6 +10322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &398529589
 MonoBehaviour:
@@ -14512,7 +14516,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.81
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -14825,6 +14829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &713966420
 MonoBehaviour:
@@ -15023,6 +15028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &720281017
 MonoBehaviour:
@@ -17220,6 +17226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &864257331
 MonoBehaviour:
@@ -20620,6 +20627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1052190933
 MonoBehaviour:
@@ -23742,6 +23750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1269781651
 MonoBehaviour:
@@ -24136,6 +24145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1295920779
 MonoBehaviour:
@@ -26209,6 +26219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1388430236
 MonoBehaviour:
@@ -26838,6 +26849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1417062796
 MonoBehaviour:
@@ -29992,6 +30004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1600976986
 MonoBehaviour:
@@ -30968,6 +30981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1677395592
 MonoBehaviour:
@@ -32820,6 +32834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 1
+  _coinsResolver: {fileID: 0}
   _collectEffect: {fileID: 1829202162}
 --- !u!114 &1753256066
 MonoBehaviour:

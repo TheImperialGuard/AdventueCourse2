@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -45,6 +46,8 @@ public class Ball : MonoBehaviour
     }
 
     private bool _isMoving => _input != Vector3.zero;
+
+    public void ResetMotion() => _mover.ResetMotion();
 
     private void MotionInputProcessing()
     {

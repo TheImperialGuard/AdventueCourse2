@@ -7,6 +7,7 @@ public class Coin : MonoBehaviour
 {
     [SerializeField] private int _value;
 
+    [SerializeField] private CoinsResolver _coinsResolver;
     [SerializeField] private ParticleSystem _collectEffect;
 
     private void OnTriggerEnter(Collider other)
@@ -15,11 +16,18 @@ public class Coin : MonoBehaviour
 
         if (wallet != null)
         {
+            Collect();
             AddTo(wallet);
         }
     }
 
     public int Value => _value;
+
+    private void Collect()
+    {
+        _coinsResolver.Collect();
+        _coinsResolver.PrintProgress();
+    }
 
     private void AddTo(Wallet wallet)
     {
